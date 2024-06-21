@@ -1,0 +1,99 @@
+With oExcel.Range(oExcel.Cells(3, 2), oExcel.Cells(3, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 3
+    End With
+    
+    With oExcel.Range(oExcel.Cells(4, 2), oExcel.Cells(5, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 9
+    End With
+    
+    With oExcel.Range(oExcel.Cells(6, 2), oExcel.Cells(6, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 44
+    End With
+    
+    With oExcel.Range(oExcel.Cells(7, 2), oExcel.Cells(7, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 9
+    End With
+    
+    With oExcel.Range(oExcel.Cells(8, 2), oExcel.Cells(8, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 44
+    End With
+    
+    With oExcel.Range(oExcel.Cells(9, 2), oExcel.Cells(10, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 9
+    End With
+    
+    With oExcel.Range(oExcel.Cells(11, 2), oExcel.Cells(11, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 44
+    End With
+    
+    With oExcel.Range(oExcel.Cells(12, 2), oExcel.Cells(12, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 3
+    End With
+    
+     With oExcel.Range(oExcel.Cells(13, 2), oExcel.Cells(16, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 41
+    End With
+    
+    With oExcel.Range(oExcel.Cells(17, 2), oExcel.Cells(17, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 33
+    End With
+    
+    With oExcel.Range(oExcel.Cells(18, 2), oExcel.Cells(19, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 3
+    End With
+    
+    With oExcel.Range(oExcel.Cells(20, 2), oExcel.Cells(22, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 9
+    End With
+    
+    With oExcel.Range(oExcel.Cells(23, 2), oExcel.Cells(28, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 44
+    End With
+    
+    With oExcel.Range(oExcel.Cells(29, 2), oExcel.Cells(29, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 9
+    End With
+    
+    With oExcel.Range(oExcel.Cells(30, 2), oExcel.Cells(30, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 44
+    End With
+    
+    With oExcel.Range(oExcel.Cells(31, 2), oExcel.Cells(35, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 51
+    End With
+    
+    With oExcel.Range(oExcel.Cells(36, 2), oExcel.Cells(40, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 10
+    End With
+    
+    With oExcel.Range(oExcel.Cells(41, 2), oExcel.Cells(45, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 43
+    End With
+    
+    With oExcel.Range(oExcel.Cells(46, 2), oExcel.Cells(46, 9))
+        .Font.Color = rgbWhite
+        .Cells.Interior.ColorIndex = 9
+    End With
+    
+    With oExcel.Range(oExcel.Cells(47, 2), oExcel.Cells(47, 9))
+        .Font.Color = rgbBlack
+        .Cells.Interior.ColorIndex = 3
+    End With

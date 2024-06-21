@@ -1,0 +1,47 @@
+Região	Tipo Tag	Descrição	Quantidade	Num. Bits	Tamanho	End. Inic.	End. Final		
+%M	SC_AL	Reconhecimento de Alarme Lógico	1243	1	1243	%M10	%M1252	B	3
+%M	SC_AC	Reconhecimento de Alarme de Comando	128	1	128	%M1253	%M1380	W	9
+%M	SC_AD	Reconhecimento de Discrepância de Comando	128	1	128	%M1381	%M1508	W	9
+%M	SC_AI	Reconhecimento de Alarme de Interlock	0	1	0			B	44
+%M	SC_CL	Execução de Comando	128	1	128	%M1509	%M1636	W	9
+%M	SC_BI	Execução de ByPass de Interlock	0	1	0			B	44
+%MW	CS_AC	Alarme de Comando	128	1	8	%MW10000.0	%MW10007.15	W	9
+%MW	CS_AD	Discrepância de Comando	128	1	8	%MW10008.0	%MW10015.15	W	9
+%MW	CS_AI	Alarme de Interlock	0	1	0			B	44
+%MW	CS_AL	Alarme Lógico	1243	1	77	%MW10016.0	%MW10093.10	B	3
+%MW	PC_HL	Variável de Entrada, Hardwired, Lógica	139	1	8	%MW10093.11	%MW10102.5	W	41
+%MW	CP_HL	Variável de Saída, Hardwired, Lógica	0	1	0			W	41
+%MW	PC_SL	Variável de Entrada, Softwired, Lógica	0	1	0			W	41
+%MW	CP_SL	Variável de Saída, Softwired, Lógica	0	1	0			W	41
+%MW	VAR_BOOL	Variável Lógica Criada Diretamente	3	1	0	%MW10102.6	%MW10102.8	B	33
+%MW	CS_MS	Indicação de Exibição de Alarme	0	1	0			B	3
+%MW	CS_TP	Indicação de Tipo do Alarme	4	1	0	%MW10102.9	%MW10102.12	W	3
+%MW	CS_HC	Indicação de Habilitação de Comando	128	1	8	%MW10102.13	%MW10110.12	W	9
+%MW	CS_XN	Indicação de Comando em Execução	128	1	8	%MW10110.13	%MW10118.12	W	9
+%MW	CS_XO	Indicação de Comando Executado	128	1	8	%MW10118.13	%MW10126.12	B	9
+%MW	CS_AV	Indicação de Interlock Ativo	0	1	0			B	44
+%MW	CS_IK	Indicação do Estado de Interlock	0	1	0			B	44
+%MW	CS_IB	Indicação do Estado do ByPass de Interlock	0	1	0			B	44
+%MW	CS_BP	Indicação de Possibilidade de ByPass de Interlock	0	1	0			B	44
+%MW	CS_CI	Indicação de Cor de Interlock	0	1	0			B	44
+%MW	CS_HB	Indicação de Habilitação do ByPass de Interlock	0	1	0			B	44
+%MW	CS_CL	HandShake de Comando	128	1	8	%MW10126.13	%MW10134.12	W	9
+%MW	CS_HK	HandShake de Interlock	0	1	0			B	44
+%MW	PC_HA_al	Variável de Entrada, Hardwired, Analógica - Rápida	0	32	0			W	51
+%MW	CP_HA_al	Variável de Saída, Hardwired, Analógica - Rápida	0	32	0			W	51
+%MW	PC_SA_al	Variável de Entrada, Softwired, Analógica - Rápida	0	32	0			W	51
+%MW	CP_SA_al	Variável de Saída, Softwired, Analógica - Rápida	0	32	0			W	51
+%MW	VAR_REAL_al	Variável Analógica Criada Diretamente - Rápida	0	32	0			W	51
+%MW	PC_HA_md	Variável de Entrada, Hardwired, Analógica - Média	6	32	12	%MW10135	%MW10145	W	10
+%MW	CP_HA_md	Variável de Saída, Hardwired, Analógica - Média	0	32	0			W	10
+%MW	PC_SA_md	Variável de Entrada, Softwired, Analógica - Média	0	32	0			W	10
+%MW	CP_SA_md	Variável de Saída, Softwired, Analógica - Média	0	32	0			W	10
+%MW	VAR_REAL_md	Variável Analógica Criada Diretamente - Média	0	32	0			W	10
+%MW	PC_HA_bx	Variável de Entrada, Hardwired, Analógica - Lenta	23	32	46	%MW10147	%MW10191	B	43
+%MW	CP_HA_bx	Variável de Saída, Hardwired, Analógica - Lenta	0	32	0			B	43
+%MW	PC_SA_bx	Variável de Entrada, Softwired, Analógica - Lenta	0	32	0			B	43
+%MW	CP_SA_bx	Variável de Saída, Softwired, Analógica - Lenta	0	32	0			B	43
+%MW	VAR_REAL_bx	Variável Analógica Criada Diretamente - Lenta	0	32	0			B	43
+%MW	SC_TF	Variável de Tempo de Alarme de Comandos	128	32	256	%MW10193	%MW10447	W	9
+%MW	SC_TM	Variável de Tempo do Alarme Temporizado	1243	32	2486	%MW10449	%MW12933	B	3
+%MW	CS_VA	CAO_DE_GUARDA	1	1	1	%MW33000	%MW33000	W	1

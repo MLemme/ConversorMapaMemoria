@@ -1,0 +1,617 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <LastAuthor>Fábio</LastAuthor>
+  <Created>2014-12-17T15:01:26Z</Created>
+  <Version>12.00</Version>
+ </DocumentProperties>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>10005</WindowHeight>
+  <WindowWidth>10005</WindowWidth>
+  <WindowTopX>120</WindowTopX>
+  <WindowTopY>135</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+  </Style>
+  <Style ss:ID="s63">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="16" ss:Color="#FFFFFF"
+    ss:Bold="1"/>
+   <Interior ss:Color="#000000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s64">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FF0000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s65">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#800000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s66">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#FFCC00" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s67">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#3366FF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s68">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#00CCFF" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s69">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#003300" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s70">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#FFFFFF"/>
+   <Interior ss:Color="#008000" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s71">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"/>
+   </Borders>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11"/>
+   <Interior ss:Color="#99CC00" ss:Pattern="Solid"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Folha1">
+  <Table ss:ExpandedColumnCount="10" ss:ExpandedRowCount="48" x:FullColumns="1"
+   x:FullRows="1" ss:StyleID="s62" ss:DefaultColumnWidth="0"
+   ss:DefaultRowHeight="0">
+   <Column ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="7.5"/>
+   <Column ss:StyleID="s62" ss:Width="51"/>
+   <Column ss:StyleID="s62" ss:Width="73.5"/>
+   <Column ss:StyleID="s62" ss:Width="246"/>
+   <Column ss:StyleID="s62" ss:Width="83.25"/>
+   <Column ss:StyleID="s62" ss:Width="71.25"/>
+   <Column ss:StyleID="s62" ss:Width="66.75"/>
+   <Column ss:StyleID="s62" ss:Width="72.75" ss:Span="1"/>
+   <Column ss:Index="10" ss:StyleID="s62" ss:AutoFitWidth="0" ss:Width="7.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="7.5"/>
+   <Row ss:AutoFitHeight="0" ss:Height="21">
+    <Cell ss:Index="2" ss:StyleID="s63"><Data ss:Type="String">Região</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tipo Tag</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Descrição</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Quantidade</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Num. Bits</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">Tamanho</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">End. Inic.</Data></Cell>
+    <Cell ss:StyleID="s63"><Data ss:Type="String">End. Final</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">%M</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SC_AL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Reconhecimento de Alarme Lógico</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%M10</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%M1252</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%M</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">SC_AC</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reconhecimento de Alarme de Comando</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%M1253</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%M1380</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%M</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">SC_AD</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Reconhecimento de Discrepância de Comando</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%M1381</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%M1508</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%M</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SC_AI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Reconhecimento de Alarme de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%M</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">SC_CL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Execução de Comando</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%M1509</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%M1636</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%M</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">SC_BI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Execução de ByPass de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CS_AC</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Alarme de Comando</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10000.0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10007.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CS_AD</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Discrepância de Comando</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10008.0</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10015.15</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_AI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Alarme de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CS_AL</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Alarme Lógico</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">77</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%MW10016.0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%MW10093.10</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PC_HL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Variável de Entrada, Hardwired, Lógica</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">139</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">%MW10093.11</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">%MW10102.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CP_HL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Variável de Saída, Hardwired, Lógica</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">PC_SL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Variável de Entrada, Softwired, Lógica</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s67"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">CP_SL</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Variável de Saída, Softwired, Lógica</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s67"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s67"/>
+    <Cell ss:StyleID="s67"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s68"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">VAR_BOOL</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">Variável Lógica Criada Diretamente</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">%MW10102.6</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">%MW10102.8</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CS_MS</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Indicação de Exibição de Alarme</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s64"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">CS_TP</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Indicação de Tipo do Alarme</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%MW10102.9</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%MW10102.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CS_HC</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Indicação de Habilitação de Comando</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10102.13</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10110.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CS_XN</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Indicação de Comando em Execução</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10110.13</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10118.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CS_XO</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Indicação de Comando Executado</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10118.13</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10126.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_AV</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Indicação de Interlock Ativo</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_IK</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Indicação do Estado de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_IB</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Indicação do Estado do ByPass de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_BP</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Indicação de Possibilidade de ByPass de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_CI</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Indicação de Cor de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_HB</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">Indicação de Habilitação do ByPass de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">CS_CL</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">HandShake de Comando</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10126.13</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10134.12</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s66"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">CS_HK</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="String">HandShake de Interlock</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:StyleID="s66"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s66"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PC_HA_al</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Variável de Entrada, Hardwired, Analógica - Rápida</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">CP_HA_al</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Variável de Saída, Hardwired, Analógica - Rápida</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">PC_SA_al</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Variável de Entrada, Softwired, Analógica - Rápida</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">CP_SA_al</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Variável de Saída, Softwired, Analógica - Rápida</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s69"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">VAR_REAL_al</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="String">Variável Analógica Criada Diretamente - Rápida</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s69"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:StyleID="s69"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s70"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PC_HA_md</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Variável de Entrada, Hardwired, Analógica - Média</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">12</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">%MW10135</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">%MW10145</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s70"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CP_HA_md</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Variável de Saída, Hardwired, Analógica - Média</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s70"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">PC_SA_md</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Variável de Entrada, Softwired, Analógica - Média</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s70"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">CP_SA_md</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Variável de Saída, Softwired, Analógica - Média</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s70"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">VAR_REAL_md</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="String">Variável Analógica Criada Diretamente - Média</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s70"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s71"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PC_HA_bx</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Variável de Entrada, Hardwired, Analógica - Lenta</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">23</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">46</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">%MW10147</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">%MW10191</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s71"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">CP_HA_bx</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Variável de Saída, Hardwired, Analógica - Lenta</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s71"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">PC_SA_bx</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Variável de Entrada, Softwired, Analógica - Lenta</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s71"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">CP_SA_bx</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Variável de Saída, Softwired, Analógica - Lenta</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s71"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">VAR_REAL_bx</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="String">Variável Analógica Criada Diretamente - Lenta</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">0</Data></Cell>
+    <Cell ss:StyleID="s71"/>
+    <Cell ss:StyleID="s71"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s65"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">SC_TF</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">Variável de Tempo de Alarme de Comandos</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">128</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="Number">256</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10193</Data></Cell>
+    <Cell ss:StyleID="s65"><Data ss:Type="String">%MW10447</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15">
+    <Cell ss:Index="2" ss:StyleID="s64"><Data ss:Type="String">%MW</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">SC_TM</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Variável de Tempo do Alarme Temporizado</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">1243</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">32</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="Number">2486</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%MW10449</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">%MW12933</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="7.5"/>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <ZeroHeight/>
+   <Selected/>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
